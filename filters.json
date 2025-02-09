@@ -5,7 +5,7 @@
         "description": "",
         "default": true,
         "blacklist": ["rape", "questionable_consent", "imminent_rape", "implied_rape", "struggling", "aged_up", "ai_generated", "ai_assisted", "pixai", "stable_diffusion", "incest", "imminent_incest", "implied_incest", "brother_and_sister", "the_coffin_of_andy_and_leyley", "real_person", "jaiden_animations", "jaiden", "virtual_youtuber"],
-        "regexBlacklist": [/(\b|_|[0-9]+)(rape|incest|ai)(\b|_|[0-9]+)/]
+        "regexBlacklist": ["(\\b|_|[0-9]+)(rape|incest|ai)(\\b|_|[0-9]+)"]
     },
     {
         "id": "maleOnly",
@@ -21,7 +21,7 @@
         "description": "Any post involving men, including heterosexual contexts",
         "default": false,
         "blacklist": ["penis", "gay", "male_only", "yaoi", "blowjob", "1boy", "male", "big_penis"],
-        "regexBlacklist": [/(\b|_|[0-9]+)(penis(es)?|gay|dicks?|cocks?|males?|boys?)(\b|_|[0-9]+)/]
+        "regexBlacklist": ["(\\b|_|[0-9]+)(penis(es)?|gay|dicks?|cocks?|males?|boys?)(\\b|_|[0-9]+)"]
     },
     {
         "id": "femaleOnly",
@@ -37,7 +37,7 @@
         "description": "Any post involving a woman, including heterosexual contexts",
         "default": false,
         "blacklist": ["pussy", "1girls", "2girls", "1boy1girl", "female_only", "yuri"],
-        "regexBlacklist": [/(\b|_|[0-9]+)(vaginal?|pussy|females?|girls?|woman|women)(\b|_|[0-9]+)/]
+        "regexBlacklist": ["(\\b|_|[0-9]+)(vaginal?|pussy|females?|girls?|woman|women)(\\b|_|[0-9]+)"]
     },
     {
         "id": "futanari",
@@ -45,7 +45,7 @@
         "description": "",
         "default": false,
         "blacklist": ["futa", "futanari", "1futa", "2futas"],
-        "regexBlacklist": [/(\b|_|[0-9]+)(futa(nari)?s?)(\b|_|[0-9]+)/]
+        "regexBlacklist": ["(\\b|_|[0-9]+)(futa(nari)?s?)(\\b|_|[0-9]+)"]
     },
     {
         "id": "furry",
@@ -61,6 +61,6 @@
         "description": "",
         "default": true,
         "blacklist": ["piss", "pissing", "shit", "shitting", "urine", "urinating", "urination", "pee", "peeing", "scat", "cockroach", "vore", "fart", "fart_cloud", "fart_fetish", "lactating", "lactation"],
-        "regexBlacklist": [/(\b|_|[0-9]+)(piss(ing)?|shit(ting)?|urin(e|ating|ation)|pee(ing)?|scat|vore|fart)(\b|_|[0-9]+)/, /^hyper_/]
+        "regexBlacklist": ["(\\b|_|[0-9]+)(piss(ing)?|shit(ting)?|urin(e|ating|ation)|pee(ing)?|scat|vore|fart)(\\b|_|[0-9]+)/, /^hyper_"]
     }
 ]
