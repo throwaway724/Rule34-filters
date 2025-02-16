@@ -56,6 +56,14 @@
         "regexBlacklist": []
     },
     {
+        "id": "myLittlePony",
+        "name": "My Little Pony",
+        "description": "",
+        "default": false,
+        "blacklist": ["my_little_pony", "friendship_is_magic", "twilight_sparkle_(mlp)", "rainbow_dash_(mlp)", "fluttershy_(mlp)", "pinkie_pie_(mlp)"],
+        "regexBlacklist": []
+    },
+    {
         "id": "weirdFetishes",
         "name": "Weird Fetishes",
         "description": "",
