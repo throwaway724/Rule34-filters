@@ -61,7 +61,7 @@
         "description": "",
         "default": true,
         "blacklist": ["piss", "pissing", "shit", "shitting", "urine", "urinating", "urination", "pee", "peeing", "scat", "cockroach", "vore", "fart", "fart_cloud", "fart_fetish", "lactating", "lactation"],
-        "regexBlacklist": ["(\\b|_|[0-9]+)(piss(ing)?|shit(ting)?|urin(e|ating|ation)|pee(ing)?|scat|vore|fart)(\\b|_|[0-9]+)/, /^hyper_"]
+        "regexBlacklist": ["(\\b|_|[0-9]+)(piss(ing)?|shit(ting)?|urin(e|ating|ation)|pee(ing)?|scat|vore|fart)(\\b|_|[0-9]+)", "^(hyper|astronomical)_"]
     }
 ]
 }
