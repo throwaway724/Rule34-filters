@@ -52,7 +52,7 @@
         "name": "Furry",
         "description": "",
         "default": false,
-        "blacklist": ["fur", "furry", "yiff", "anthro", "paws", "canine"],
+        "blacklist": ["fur", "furry", "yiff", "anthro", "anthrofied", "paws", "canine"],
         "regexBlacklist": []
     },
     {
