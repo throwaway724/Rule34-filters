@@ -1,93 +1,117 @@
-{"filters": [
-    {
-        "id": "unethicalGooning",
-        "name": "Unethical Gooning",
-        "description": "",
-        "group": "general",
-        "default": true,
-        "blacklist": ["rape", "questionable_consent", "imminent_rape", "implied_rape", "struggling", "drunk", "sexual_assault", "aged_up", "ai_generated", "ai_assisted", "pixai", "stable_diffusion", "incest", "imminent_incest", "implied_incest", "brother_and_sister", "the_coffin_of_andy_and_leyley", "real_person", "jaiden_animations", "jaiden", "virtual_youtuber"],
-        "regexBlacklist": ["(\\b|_|[0-9]+)(rape|incest|ai)(\\b|_|[0-9]+)"]
-    },
-    {
-        "id": "maleOnly",
-        "name": "Male Only",
-        "description": "Posts exclusively containing men, or depicting gay men",
-        "group": "male",
-        "default": false,
-        "blacklist": ["gay", "male_only", "yaoi"],
-        "regexBlacklist": []
-    },
-    {
-        "id": "male",
-        "name": "Male",
-        "description": "Any post involving men, including heterosexual contexts",
-        "group": "male",
-        "default": false,
-        "blacklist": ["penis", "gay", "male_only", "yaoi", "blowjob", "1boy", "male", "big_penis"],
-        "regexBlacklist": ["(\\b|_|[0-9]+)(penis(es)?|gay|dicks?|cocks?|males?|boys?)(\\b|_|[0-9]+)"]
-    },
-    {
-        "id": "semen",
-        "name": "Semen",
-        "description": "Any post depicting semen or ejaculation, even in the absence of males",
-        "group": "male",
-        "default": false,
-        "blacklist": ["cum", "semen", "ejaculation"],
-        "regexBlacklist": ["(\\b|_|[0-9]+)(cum|(?<!(female|pussy)_)ejaculation)(\\b|_|[0-9]+)"]
-    },
-    {
-        "id": "femaleOnly",
-        "name": "Female Only",
-        "description": "Posts exclusively containing women or depicting lesbians",
-        "group": "female",
-        "default": false,
-        "blacklist": ["female_only", "lesbian", "yuri"],
-        "regexBlacklist": []
-    },
-    {
-        "id": "female",
-        "name": "Female",
-        "description": "Any post involving a woman, including heterosexual contexts",
-        "group": "female",
-        "default": false,
-        "blacklist": ["pussy", "1girls", "2girls", "1boy1girl", "female_only", "yuri"],
-        "regexBlacklist": ["(\\b|_|[0-9]+)(vaginal?|pussy|females?|girls?|woman|women)(\\b|_|[0-9]+)"]
-    },
-    {
-        "id": "futanari",
-        "name": "Futanari",
-        "description": "",
-        "group": "general",
-        "default": false,
-        "blacklist": ["futa", "futanari", "1futa", "2futas"],
-        "regexBlacklist": ["(\\b|_|[0-9]+)(futa(nari)?s?)(\\b|_|[0-9]+)"]
-    },
-    {
-        "id": "furry",
-        "name": "Furry",
-        "description": "",
-        "group": "nonHuman",
-        "default": false,
-        "blacklist": ["fur", "furry", "yiff", "anthro", "anthrofied", "paws", "canine"],
-        "regexBlacklist": []
-    },
-    {
-        "id": "myLittlePony",
-        "name": "My Little Pony",
-        "description": "",
-        "group": "nonHuman",
-        "default": false,
-        "blacklist": ["my_little_pony", "friendship_is_magic", "twilight_sparkle_(mlp)", "rainbow_dash_(mlp)", "fluttershy_(mlp)", "pinkie_pie_(mlp)"],
-        "regexBlacklist": []
-    },
-    {
-        "id": "weirdFetishes",
-        "name": "Weird Fetishes",
-        "description": "",
-        "group": "general",
-        "default": true,
-        "blacklist": ["piss", "pissing", "shit", "shitting", "urine", "urinating", "urination", "pee", "peeing", "scat", "cockroach", "vore", "fart", "fart_cloud", "fart_fetish", "lactating", "lactation"],
-        "regexBlacklist": ["(\\b|_|[0-9]+)(piss(ing)?|shit(ting)?|urin(e|ating|ation)|pee(ing)?|scat|vore|fart)(\\b|_|[0-9]+)", "^(hyper|astronomical)_"]
-    }
-]
+{
+    "filters": [
+        {
+            "id": "unethicalGooning",
+            "name": "Unethical Gooning",
+            "description": "",
+            "group": "general",
+            "default": true,
+            "blacklist": ["rape", "questionable_consent", "imminent_rape", "implied_rape", "struggling", "drunk", "sexual_assault", "aged_up", "ai_generated", "ai_assisted", "pixai", "stable_diffusion", "incest", "imminent_incest", "implied_incest", "brother_and_sister", "the_coffin_of_andy_and_leyley", "real_person", "jaiden_animations", "jaiden", "virtual_youtuber"],
+            "regexBlacklist": ["(\\b|_|[0-9]+)(rape|incest|ai)(\\b|_|[0-9]+)"]
+        },
+        {
+            "id": "maleOnly",
+            "name": "Male Only",
+            "description": "Posts exclusively containing men, or depicting gay men",
+            "group": "male",
+            "default": false,
+            "blacklist": ["gay", "male_only", "yaoi"],
+            "regexBlacklist": []
+        },
+        {
+            "id": "male",
+            "name": "Male",
+            "description": "Any post involving men, including heterosexual contexts",
+            "group": "male",
+            "default": false,
+            "blacklist": ["penis", "gay", "male_only", "yaoi", "blowjob", "1boy", "male", "big_penis"],
+            "regexBlacklist": ["(\\b|_|[0-9]+)(penis(es)?|gay|dicks?|cocks?|males?|boys?)(\\b|_|[0-9]+)"]
+        },
+        {
+            "id": "semen",
+            "name": "Semen",
+            "description": "Any post depicting semen or ejaculation, even in the absence of males",
+            "group": "male",
+            "default": false,
+            "blacklist": ["cum", "semen", "ejaculation"],
+            "regexBlacklist": ["(\\b|_|[0-9]+)(cum|(?<!(female|pussy)_)ejaculation)(\\b|_|[0-9]+)"]
+        },
+        {
+            "id": "femaleOnly",
+            "name": "Female Only",
+            "description": "Posts exclusively containing women or depicting lesbians",
+            "group": "female",
+            "default": false,
+            "blacklist": ["female_only", "lesbian", "yuri"],
+            "regexBlacklist": []
+        },
+        {
+            "id": "female",
+            "name": "Female",
+            "description": "Any post involving a woman, including heterosexual contexts",
+            "group": "female",
+            "default": false,
+            "blacklist": ["pussy", "1girls", "2girls", "1boy1girl", "female_only", "yuri"],
+            "regexBlacklist": ["(\\b|_|[0-9]+)(vaginal?|pussy|females?|girls?|woman|women)(\\b|_|[0-9]+)"]
+        },
+        {
+            "id": "futanari",
+            "name": "Futanari",
+            "description": "",
+            "group": "general",
+            "default": false,
+            "blacklist": ["futa", "futanari", "1futa", "2futas"],
+            "regexBlacklist": ["(\\b|_|[0-9]+)(futa(nari)?s?)(\\b|_|[0-9]+)"]
+        },
+        {
+            "id": "furry",
+            "name": "Furry",
+            "description": "",
+            "group": "nonHuman",
+            "default": false,
+            "blacklist": ["fur", "furry", "yiff", "anthro", "anthrofied", "paws", "canine"],
+            "regexBlacklist": []
+        },
+        {
+            "id": "myLittlePony",
+            "name": "My Little Pony",
+            "description": "",
+            "group": "nonHuman",
+            "default": false,
+            "blacklist": ["my_little_pony", "friendship_is_magic", "twilight_sparkle_(mlp)", "rainbow_dash_(mlp)", "fluttershy_(mlp)", "pinkie_pie_(mlp)"],
+            "regexBlacklist": []
+        },
+        {
+            "id": "weirdFetishes",
+            "name": "Weird Fetishes",
+            "description": "",
+            "group": "fetishes",
+            "default": true,
+            "blacklist": ["piss", "pissing", "shit", "shitting", "urine", "urinating", "urination", "pee", "peeing", "scat", "cockroach", "vore", "fart", "fart_cloud", "fart_fetish", "lactating", "lactation"],
+            "regexBlacklist": ["(\\b|_|[0-9]+)(piss(ing)?|shit(ting)?|urin(e|ating|ation)|pee(ing)?|scat|vore|fart)(\\b|_|[0-9]+)", "^(hyper|astronomical)_"]
+        }
+    ],
+
+    "groups": [
+        {
+            "id": "general",
+            "name": "General"
+        },
+        {
+            "id": "male",
+            "name": "Male"
+        },
+        {
+            "id": "female",
+            "name": "Female"
+        },
+        {
+            "id": "nonHuman",
+            "name": "Non-Human Characters"
+        },
+        {
+            "id": "fetishes",
+            "name": "Fetishes"
+        }
+    ]
 }
