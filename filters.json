@@ -29,7 +29,7 @@
         "description": "Any post depicting semen or ejaculation, even in the absence of males",
         "default": false,
         "blacklist": ["cum", "semen", "ejaculation"],
-        "regexBlacklist": ["(\\b|_|[0-9]+)(cum|(?<!female_)ejaculation)(\\b|_|[0-9]+)"]
+        "regexBlacklist": ["(\\b|_|[0-9]+)(cum|(?<!(female|pussy)_)ejaculation)(\\b|_|[0-9]+)"]
     },
     {
         "id": "femaleOnly",
