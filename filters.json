@@ -4,7 +4,7 @@
         "name": "Unethical Gooning",
         "description": "",
         "default": true,
-        "blacklist": ["rape", "questionable_consent", "imminent_rape", "implied_rape", "struggling", "drunk", "aged_up", "ai_generated", "ai_assisted", "pixai", "stable_diffusion", "incest", "imminent_incest", "implied_incest", "brother_and_sister", "the_coffin_of_andy_and_leyley", "real_person", "jaiden_animations", "jaiden", "virtual_youtuber"],
+        "blacklist": ["rape", "questionable_consent", "imminent_rape", "implied_rape", "struggling", "drunk", "sexual_assault", "aged_up", "ai_generated", "ai_assisted", "pixai", "stable_diffusion", "incest", "imminent_incest", "implied_incest", "brother_and_sister", "the_coffin_of_andy_and_leyley", "real_person", "jaiden_animations", "jaiden", "virtual_youtuber"],
         "regexBlacklist": ["(\\b|_|[0-9]+)(rape|incest|ai)(\\b|_|[0-9]+)"]
     },
     {
@@ -22,6 +22,14 @@
         "default": false,
         "blacklist": ["penis", "gay", "male_only", "yaoi", "blowjob", "1boy", "male", "big_penis"],
         "regexBlacklist": ["(\\b|_|[0-9]+)(penis(es)?|gay|dicks?|cocks?|males?|boys?)(\\b|_|[0-9]+)"]
+    },
+    {
+        "id": "semen",
+        "name": "Semen",
+        "description": "Any post depicting semen or ejaculation, even in the absence of males",
+        "default": false,
+        "blacklist": ["cum", "semen", "ejaculation"],
+        "regexBlacklist": ["(\\b|_|[0-9]+)(cum|(?<!female_)ejaculation)(\\b|_|[0-9]+)"]
     },
     {
         "id": "femaleOnly",
