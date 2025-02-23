@@ -6,7 +6,14 @@
             "description": "",
             "group": "general",
             "default": true,
-            "blacklist": ["rape", "questionable_consent", "imminent_rape", "implied_rape", "struggling", "drunk", "sexual_assault", "aged_up", "ai_generated", "ai_assisted", "pixai", "stable_diffusion", "incest", "imminent_incest", "implied_incest", "brother_and_sister", "the_coffin_of_andy_and_leyley", "real_person", "jaiden_animations", "jaiden", "virtual_youtuber"],
+            "blacklist": [
+                "rape", "questionable_consent", "imminent_rape", "implied_rape", "struggling", "drunk", "sexual_assault",
+                "dead", "guro",
+                "aged_up", "ai_generated", "ai_assisted", 
+                "pixai", "stable_diffusion", 
+                "incest", "imminent_incest", "implied_incest", "brother_and_sister", "the_coffin_of_andy_and_leyley", 
+                "real_person", "jaiden_animations", "jaiden", "virtual_youtuber"
+            ],
             "regexBlacklist": ["(\\b|_|[0-9]+)(rape|incest|ai)(\\b|_|[0-9]+)"]
         },
         {
