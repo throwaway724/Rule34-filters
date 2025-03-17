@@ -76,7 +76,7 @@
             "description": "",
             "group": "nonHuman",
             "default": false,
-            "blacklist": ["fur", "furry", "yiff", "anthro", "anthrofied", "paws", "canine"],
+            "blacklist": ["fur", "furry", "yiff", "anthro", "anthrofied", "paws", "canine", "feline", "mammal"],
             "regexBlacklist": ["(\\b|_|[0-9]+)(?<!(not_))fur(r(y|ies))?(\\b|_|[0-9]+)"]
         },
         {
@@ -87,6 +87,24 @@
             "default": false,
             "blacklist": ["my_little_pony", "friendship_is_magic", "twilight_sparkle_(mlp)", "rainbow_dash_(mlp)", "fluttershy_(mlp)", "pinkie_pie_(mlp)"],
             "regexBlacklist": []
+        },
+        {
+            "id": "otherNonHuman",
+            "name": "Other non-human characters",
+            "description": "",
+            "group": "nonHuman",
+            "default": false,
+            "blacklist": ["scalie", "non-human", "humanoid", "pokemon_(species)"],
+            "regexBlacklist": []
+        },
+        {
+            "id": "vanillaFetishes",
+            "name": "Vanilla Fetishes",
+            "description": "",
+            "group": "fetishes",
+            "default": false,
+            "blacklist": ["lactation", "lactating", "foot_focus", "foot_worship", "footjob"],
+            "regexBlacklist": ["(\\b|_|[0-9]+)(foot|feet|lactat(ion|ing))(\\b|_|[0-9]+)"]
         },
         {
             "id": "weirdFetishes",
