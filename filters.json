@@ -104,7 +104,7 @@
             "group": "fetishes",
             "default": false,
             "blacklist": ["lactation", "lactating", "foot_focus", "foot_worship", "footjob"],
-            "regexBlacklist": ["(\\b|_|[0-9]+)(foot|feet|lactat(ion|ing))(\\b|_|[0-9]+)"]
+            "regexBlacklist": ["(\\b|_|[0-9]+)(lactat(ion|ing))(\\b|_|[0-9]+)"]
         },
         {
             "id": "weirdFetishes",
