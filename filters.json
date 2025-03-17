@@ -90,7 +90,7 @@
         },
         {
             "id": "otherNonHuman",
-            "name": "Other non-human characters",
+            "name": "Other",
             "description": "",
             "group": "nonHuman",
             "default": false,
